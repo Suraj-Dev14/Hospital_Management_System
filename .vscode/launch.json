@@ -9,6 +9,16 @@
       "projectName": "HMS",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-UserMsApplication<UserMS>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.hsm.user.UserMsApplication",
+      "projectName": "UserMS",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }
